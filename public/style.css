@@ -59,4 +59,34 @@ h3{
 
 .remained{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    transition: 0.3s ease;
+}
+
+.remained span {
+    font-size: 12px;
+    font-weight:bold;
+
+}
+.remained small{
+    font-size: 12px;
+}
+.percentage{
+    background-color:cornflowerblue ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    height: 0;
+    transition: 0.3s ease;
+}
+
+.text{
+    text-align: center;
+    margin:0 0 5px;
 }
