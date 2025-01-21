@@ -2,7 +2,7 @@
     box-sizing:border-box;
 }
 body {
-    background-color: aquamarine;
+    background-color: rgb(127, 219, 255);
     color: aliceblue;
     font-family: monospace;
     display: flex;
